@@ -1,6 +1,4 @@
-.testy{
-    color: #121922;
-}
+
 
 :root {
     /* link color */
@@ -8,15 +6,15 @@
     /* main accent color (mentions, folder icons, unread indicators) */
     --accent-color:	hsl(196, 43%, 63%);
     /* darker accent color (background of any accent items with text) */
-    --accent-background: hsla(196, 44%, 61%,);
+    --accent-background: hsla(196, 44%, 61%);
     /* even darker accent color (background of accent buttons when hover) */
     --accent-background-2: hsl(195, 29%, 51%);
     /* even darker accent color (background of accent buttons when clicked) */
-    --accent-background-3: hsla(195, 28%, 43%, 0.94);
+    --accent-background-3: hsla(195, 28%, 43%);
     /* background of mention text and messages that mention you */
-    --mention-modifier: hsla(190, 60%, 50%,);
+    --mention-modifier: hsla(190, 60%, 50%);
     /* background of messages that mention you on hover */
-    --mention-hover-modifier: hsla(190, 60%, 50%);
+    --mention-hover-modifier: hsla(190, 60%, 50%, 0.05);
     /* bright text for colored buttons */
     --bright-text: hsl(171, 100%, 86%);
     /* header text for headers and certain text */
@@ -33,7 +31,7 @@
     --muted-background-active: hsl(220, 15%, 16%);
     /* background of pretty much everything not using primary background */
     /* lighter variant is used for the side of embeds and borders */
-    --secondary-background: hsl(214, 31%, 10%);
+    --secondary-background: hsl(215, 33%, 16%);
     /* main chat/channel list/member list background */
     --primary-background: hsl(215, 33%, 16%);
     /* overlay background on stuff when hovered over */
@@ -309,7 +307,7 @@
     display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-    content: 'Midnight';
+    content: 'Airzade';
     display: block;
     position: relative;
     width: 200px;
